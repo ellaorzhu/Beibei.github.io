@@ -54,6 +54,9 @@ clear:right;}
 .section{
 float:left;
 width:300px;
+}
 
-
+.footer{
+background-color:blue；
+width:1000px;
 }
