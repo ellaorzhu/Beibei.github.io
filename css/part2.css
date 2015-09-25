@@ -1,5 +1,5 @@
 .header{
-	background-color:#FF99CC;
+      	background-color:#FF99CC;
 	clear:both;
 	padding-bottom:20px;
 	
@@ -55,7 +55,7 @@ clear:right;}
 float:left;
 width:300px;
 }
-.footer{
+footer{
 background-color:blue；
 width:900px;
 }
