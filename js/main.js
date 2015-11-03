@@ -8,7 +8,7 @@ $("#btn").click(function(){
   bestBank.html("<h1>best bank</h1><p>this is line</p>");
   });
 });
-$(document).body).on("click", "#nextBtn", function(){
+$(document.body).on("click", "#nextBtn", function(){
        $("#change").text("New Example Text");
   });
  });
