@@ -10,6 +10,6 @@ $("#btn").click(function(){
 });
 $(document.body).on("click", "#nextBtn", function(){
        $("#change").text("New Example Text");
-       $(this).after(text);
+       $(this).add("<p id='new'>new paragraph</p>");
   });
 }); 
