@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>JQuery Practice</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+</head>
+
+<body>
+    <div class="main">
+        <h2>JQuery Toggle Class Form</h2>
+        <form>
+            <div class="container">
+                <ul>
+                    <li>
+                        <input type="checkbox" name="bankLoc" id="bankLoc" value="Bank Location" /><span class="label">Bank Location</span><span class="weight"><input type="text" name="weight" id="bankWeight"></span><span class="explanation">Distance of banks to your location</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="numAtm" id="numAtm" value="Number of ATMs" /><span class="label">Number of ATMs</span><span class="weight"><input type="text" name="weight" id="atmWeight"></span><span class="explanation">Total number of ATM locations</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="checkingFee" id="checkingFee" value="Checking Fee" /><span class="label">Chcking Fee</span><span class="weight"><input type="text" name="weight" id="checkingkWeight"></span><span class="explanation">Price of any checking fees</span> </li>
+                    <li>
+                        <input type="checkbox" name="custServiceRating" id="custServiceRating" value="Customer Service Rating" /><span class="label">Customer Service Rating</span><span class="weight"><input type="text" name="weight" id="customerWeight"></span><span class="explanation">Average customer service rating</span>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="onlineOnly" id="onlineOnly" value="Online Only" /><span class="label">Online Only</span><span class="weight"><input type="text" name="weight" id="bankWeight"></span><span class="explanation">Is this an online only bank?</span>
+                    </li>
+                    <li><button type="button" id="btn">Submit</button></li>
+                </ul>
+            </div>
+            
+        </form>
+        
+        <div class="bestBank" id="bestBank">
+            
+        </div>
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
